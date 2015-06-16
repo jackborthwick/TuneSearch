@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Reachability.h"
+#import <Social/Social.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> 
 
+@property (nonatomic, strong) NSArray *itemArray;
 
 @end
 
