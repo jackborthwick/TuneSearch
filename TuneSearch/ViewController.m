@@ -16,7 +16,7 @@
 @property (nonatomic, strong) Reachability          *wifiReach;
 @property (nonatomic, strong) NSString              *searchTerm;
 @property (nonatomic, strong) IBOutlet UITextField  *searchField;
-@property (nonatomic,strong) IBOutlet UITableView   *itemTableView;
+@property (nonatomic, strong) IBOutlet UITableView  *itemTableView;
 @property (nonatomic, strong) NSString              *hostName;
 @property (nonatomic, strong) NSMutableArray        *itunesItemArray;
 
