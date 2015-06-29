@@ -101,7 +101,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="itemTableView" destination="iiD-5L-YoN" id="x2Z-fc-GKn"/>
+                        <outlet property="itemTableView" destination="iiD-5L-YoN" id="BUH-xY-7V7"/>
                         <outlet property="searchField" destination="jbg-pb-HDJ" id="5O5-Bq-b61"/>
                     </connections>
                 </viewController>

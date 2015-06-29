@@ -18,6 +18,7 @@
 @property (nonatomic, strong) IBOutlet UITextField  *searchField;
 @property (nonatomic, strong) NSString              *hostName;
 @property (nonatomic, strong) NSMutableArray        *itunesItemArray;
+@property (nonatomic, strong) IBOutlet UITableView           *itemTableView;
 
 @end
 
